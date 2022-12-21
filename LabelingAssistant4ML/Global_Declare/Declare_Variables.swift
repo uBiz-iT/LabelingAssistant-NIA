@@ -8,15 +8,15 @@
 
 import UIKit
 
-//var ServerAddress = "http://192.168.0.70"
-var ServerAddress = "http://220.69.215.105"  // 서버 IP
+//var ServerAddress = "http://"
+var ServerAddress = "http://"  
 var ServerPort = 3001
 //var ServerWebViewPort = 3002
 var ServerWebViewPort = 3001
 var ServerURL = String(format: "%@:%d/", ServerAddress, ServerPort)
 //var ServerWebView = String(format: "%@:%d/", ServerAddress, ServerWebViewPort)
 var ServerWebView = String(format: "%@:%d/", ServerAddress, ServerWebViewPort)
-//var ServerWebView = "http://192.168.0.70:3001/"
+//var ServerWebView = "http://:3001/"
 var ILA4ML_URL_PROC = ServerURL + "proc"
 var ILA4ML_URL_GETIMAGE = ServerURL + "getImage"
 
